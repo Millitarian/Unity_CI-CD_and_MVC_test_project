@@ -4,8 +4,8 @@ public class OneLineSummController : ControllerBase
   {
     int score = 0;
 
-    int rows = field.GetUpperBound(0) + 1;    // количество строк
-    int columns = field.Length / rows;        // количество столбцов
+    int columns = field.GetLength(0);    // количество столбцов
+    int rows = field.GetLength(1);        // количество строк
     int calculatedLineIndex = rows / 2;
 
     for (int i = 0; i < columns; i++)

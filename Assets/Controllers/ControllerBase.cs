@@ -10,5 +10,4 @@ public abstract class ControllerBase
     view.display(model.field, calculateScore(model.field));
   }
   protected abstract int calculateScore(BonusBase[,] field);
-
 }

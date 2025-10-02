@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
   ViewBase view;
   private void Start()
   {
+    //controller = new OneLineStandartController();
     controller = new OneLineSummController();
+    //model = new Field4x3();
     model = new Field3x3();
     view = new DebugView();
 
