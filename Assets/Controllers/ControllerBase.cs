@@ -2,7 +2,7 @@
 public abstract class ControllerBase
 {
   public FieldBase model;
-  public ViewBase view;
+  public IView view;
 
   public void game()
   {

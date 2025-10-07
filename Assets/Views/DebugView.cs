@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class DebugView : ViewBase
+public class DebugView : IView
 {
-  public override void display(BonusBase[,] field, int score) 
+  public void display(BonusBase[,] field, int score) 
   {
     Debug.Log("-------------");
     foreach (var item in field) 
