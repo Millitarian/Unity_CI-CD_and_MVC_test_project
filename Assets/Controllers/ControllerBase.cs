@@ -6,8 +6,9 @@ public abstract class ControllerBase
 
   public void game()
   {
-    model.roll();
-    view.display(model.field, calculateScore(model.field));
+    model?.roll();
+    var score = calculateScore(model.field);
+    view?.display(model.field, score);
   }
   protected abstract int calculateScore(BonusBase[,] field);
 }

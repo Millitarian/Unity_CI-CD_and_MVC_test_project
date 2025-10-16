@@ -185,10 +185,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: View
       objectReference: {fileID: 0}
-    - target: {fileID: 5188980628748869674, guid: 17c4840d556aba64c99272aa7fc4a2c4, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -10
-      objectReference: {fileID: 0}
     - target: {fileID: 6276903154895447439, guid: 17c4840d556aba64c99272aa7fc4a2c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
